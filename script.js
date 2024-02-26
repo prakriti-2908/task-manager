@@ -16,6 +16,7 @@ function addingTask() {
   // inp.setAttribute("contenteditable", "true");
   inp.focus();
   // inp.style.padding = "10px";
+  card.setAttribute("draggable",true);
   inp.style.maxHeight = "20px";
   inp.style.fontSize = "large";
   card.style.borderBottom = "1px solid #ccc";
